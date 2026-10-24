@@ -1,4 +1,5 @@
 import React from 'react';
+const BASE_URL = import.meta.env.BASE_URL;
 import './Hero.css';
 
 const Hero = () => {
@@ -22,7 +23,7 @@ const Hero = () => {
         <div className="hero-image">
           {/* Placeholder image that looks clean for hero */}
           <img 
-            src="${BASE_URL}/Deadpool.jpg" 
+            src={`${BASE_URL}/Deadpool.jpg`} 
             alt="Funko Destacado" 
             className="hero-img-element"
           />
