@@ -1,10 +1,8 @@
-import React, { createContext, useState, useContext, useEffect } from 'react';
-
-// Create Context
-const CartContext = createContext();
+import React, { useState, useEffect } from 'react';
+import { CartContext } from './CartContext';
 
 // Custom Hook to use Cart Context
-export const useCart = () => useContext(CartContext);
+
 
 // Provider Component
 export const CartProvider = ({ children }) => {

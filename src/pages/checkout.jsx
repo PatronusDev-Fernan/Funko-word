@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import { useCart } from '../context/CartContext';
-import { Link, useNavigate } from 'react-router-dom';
+import { useCart } from '../context/useCart';
+import { Link } from 'react-router-dom';
 import './checkout.css';
 
 const Checkout = () => {
   const { cartItems, totalPrice, clearCart } = useCart();
-  const navigate = useNavigate();
   const [isProcessing, setIsProcessing] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
 
