@@ -1,10 +1,11 @@
+const BASE_URL = import.meta.env.BASE_URL;
 export const funkos = [
   {
     id: 1,
     name: 'Spider-Man (No Way Home)',
     price: 399.00,
     category: 'Marvel',
-    image: '/Peter3.jpg',
+    image: `${BASE_URL}/Peter3.jpg`,
     badge: 'Nuevo',
   },
   {
@@ -12,7 +13,7 @@ export const funkos = [
     name: 'Darth Vader',
     price: 449.00,
     category: 'Star Wars',
-    image: '/Darth%20Vader.jpg',
+    image: `${BASE_URL}/Darth%20Vader.jpg`,
     badge: 'Exclusivo',
   },
   {
@@ -20,7 +21,7 @@ export const funkos = [
     name: 'Harry Potter con Varita',
     price: 349.00,
     category: 'Harry Potter',
-    image: '/Harry.jpg',
+    image: `${BASE_URL}/Harry.jpg`,
     badge: null,
   },
   {
@@ -28,7 +29,7 @@ export const funkos = [
     name: 'Batman (Flashpoint)',
     price: 499.00,
     category: 'DC Comics',
-    image: '/Batman%28flashpoint%29.jpg',
+    image: `${BASE_URL}/Batman%28flashpoint%29.jpg`,
     badge: null,
   },
   {
@@ -36,7 +37,7 @@ export const funkos = [
     name: 'Grogu (Baby Yoda)',
     price: 399.00,
     category: 'Star Wars',
-    image: '/Grogu%20%28BabyYoda%29.jpg',
+    image: `${BASE_URL}/Grogu%20%28BabyYoda%29.jpg`,
     badge: 'Más Vendido',
   },
   {
@@ -44,7 +45,7 @@ export const funkos = [
     name: 'Pikachu',
     price: 349.00,
     category: 'Pokémon',
-    image: '/Pikachu.jpg',
+    image: `${BASE_URL}/Pikachu.jpg`,
     badge: 'Nuevo',
   },
   {
@@ -52,7 +53,7 @@ export const funkos = [
     name: 'Iron Man (Endgame)',
     price: 499.00,
     category: 'Marvel',
-    image: '/Iron%20Man%20%28EndGame%29.jpg',
+    image: `${BASE_URL}/Iron%20Man%20%28EndGame%29.jpg`,
     badge: 'Exclusivo',
   },
   {
@@ -60,7 +61,7 @@ export const funkos = [
     name: 'Naruto Uzumaki',
     price: 399.00,
     category: 'Anime',
-    image: '/Naruto.jpg',
+    image: `${BASE_URL}/Naruto.jpg`,
     badge: null,
   },
   {
@@ -68,7 +69,7 @@ export const funkos = [
     name: 'Deadpool',
     price: 449.00,
     category: 'Marvel',
-    image: '/Deadpool.jpg',
+    image: `${BASE_URL}/Deadpool.jpg`,
     badge: null,
   }
 ];
