@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="hero-image">
           {/* Placeholder image that looks clean for hero */}
           <img 
-            src="/Deadpool.jpg" 
+            src="${BASE_URL}/Deadpool.jpg" 
             alt="Funko Destacado" 
             className="hero-img-element"
           />
