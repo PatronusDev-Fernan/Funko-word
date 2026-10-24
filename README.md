@@ -2,7 +2,6 @@
 
 Funko Store es una aplicación web de comercio electrónico desarrollada como proyecto de portafolio con **React** y **Vite**. La aplicación simula una tienda de figuras Funko y permite explorar productos, consultar novedades, administrar un carrito de compras y completar un flujo de checkout simulado.
 
-> **Nota:** este proyecto es una demostración de portafolio. El proceso de pago es simulado y no realiza cargos reales.
 
 ## Funcionalidades
 
@@ -108,7 +107,9 @@ Vite mostrará en la terminal la dirección local desde la que puedes abrir la a
 
 ## Demo
 
-La demo pública se añadirá próximamente.
+Puedes probar la aplicación aquí:
+
+**[Ver Funko Store en vivo](https://patronusdev-fernan.github.io/Funko-word/)**
 
 ## Capturas
 
